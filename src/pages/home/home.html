@@ -1,0 +1,41 @@
+<ion-header>
+  <ion-navbar> 
+      <ion-buttons start>
+        <button ion-button>
+        <ion-icon name="menu"></ion-icon>
+        </button>
+    </ion-buttons>
+          
+    <ion-title>
+      W3EARTH-JOURNAL
+    </ion-title>      
+  </ion-navbar>
+
+  <ion-toolbar>
+      <ion-title>dashboard</ion-title>
+    </ion-toolbar>
+
+</ion-header>
+
+<ion-content padding>
+    <img src="./../../assets/imgs/logo.png" alt="Rgcreativelab" />
+  
+  <ion-grid>
+      <ion-row>
+        <ion-col col-3 text-center (click)="loadNews()">
+            <img src="../../../assets/imgs/news.svg" alt="">news
+        </ion-col>
+        <ion-col col-3 text-center (click)="loadJobs()">
+            <img src="../../../assets/imgs/jobs.svg" alt="">jobs
+        </ion-col>
+        <ion-col col-3 text-center (click)="loadLife()">
+            <img src="../../../assets/imgs/life.svg" alt="">life
+        </ion-col>
+        <ion-col col-3 text-center (click)="loadContact()">
+            <img src="../../../assets/imgs/contact.svg" alt="">contact
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+
+
+</ion-content>

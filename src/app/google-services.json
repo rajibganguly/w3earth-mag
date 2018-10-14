@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "244807826832",
+    "firebase_url": "https://w3earth-mag.firebaseio.com",
+    "project_id": "w3earth-mag",
+    "storage_bucket": "w3earth-mag.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:244807826832:android:80c57b4eeea29ae4",
+        "android_client_info": {
+          "package_name": "com.w3earth.journal"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "244807826832-bftcvcl6dd9k327sjruduhudihf30i58.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDe3oi4QEyNYFEYp4BENcAywEB6sdi2mSc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

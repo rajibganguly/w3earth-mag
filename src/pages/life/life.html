@@ -1,0 +1,17 @@
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>Life</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+    <ion-card *ngFor="let x of lifeall">
+      <img src="{{x.imageurl}}" alt="{{x.title}}"/>
+      <div class="card-title" padding>{{x.title}}</div>
+      <div class="card-subtitle" padding>
+        {{x.description}}</div>
+    </ion-card>
+  </ion-content>
